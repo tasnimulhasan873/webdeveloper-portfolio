@@ -89,20 +89,25 @@ nav a {
 }
 
 /* main section style */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* About section style */
 
 .about{
-  padding: 130px;
+  padding: 100px;
   border-radius: 10px;
   background-color:  #fff8f3;
   margin-top: 130px ;
 }
-.section-title{
+.section-title, .section-t{
   text-align: center;
   font-size: 35px;
   font-family: 700;
   font-family: "Open Sans";
   color: #181818;
+  
 }
 .section-description{
   text-align: center;
@@ -110,4 +115,76 @@ nav a {
   font-family: 300;
   font-family: "Open Sans";
   color: #757575;
+  
+}
+/* name,Emai CSS part */
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.about-info{
+ 
+  text-align: center; 
+}
+.info-description{
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+.info-title{
+  color: #757575;
+}
+
+/* What i do CSS part */
+.skill-container{
+  display: flex;
+  gap: 24px;
+}
+.section-t{
+  margin-top: 130px 0 30 0;
+}
+#what-i-do-des{
+  padding: 0 157px 50px 157px;
+}
+
+/* skills CSS */
+/* #skill-c{
+box-sizing: border-box;
+border-radius: 5px;
+padding: auto;
+} */
+.skill{
+padding: 30px;
+border-radius: 5px;
+background-color: #fff;
+
+}
+
+.skill-description{
+  color: #757575;
+}
+
+
+.box2:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+/* resume */
+.st{
+  margin-top: 130px;
+}
+
+/* resume section styles */
+
+.resume-collumn-title{
+
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
+.resume-collumn{
+  display: flex;
 }
