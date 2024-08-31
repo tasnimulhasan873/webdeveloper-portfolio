@@ -185,6 +185,20 @@ background-color: #fff;
 
 }
 
-.resume-collumn{
+.resume-container{
   display: flex;
+  gap: 60px;
 }
+
+.resume-description
+ {
+  color: #757575;
+ }
+ .resume-item-instituion{
+  color: #757575;
+  font-weight: 600;
+ }
+ .btn-resume{
+  text-align: center;
+  margin-top: 50px;
+ }
